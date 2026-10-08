@@ -189,6 +189,9 @@ footer .dis{margin-top:1.2rem;padding-top:1.2rem;border-top:1px solid #5b4426;co
   .js .dishes li{opacity:1;transform:none;animation:none}
   .rail .t,.ring svg{animation:none}.btn:hover,.svc li:hover,.tabs button:hover{transform:none}
 }
+
+/* design rule: no decorative italic accents in headings */
+:is(h1,h2,h3) :is(em,i){font-style:normal!important;font-family:inherit!important}
 </style>
 </head>
 <body>
@@ -203,7 +206,6 @@ footer .dis{margin-top:1.2rem;padding-top:1.2rem;border-top:1px solid #5b4426;co
 <main id="main" tabindex="-1">
 <section class="hero" id="top"><div class="wrap">
   <div>
-    <p class="tag">Bethpage, New York</p>
     <h1 id="h1">We make party planning <em>easy.</em></h1>
     <p class="lede rv" style="--d:5">Catering for parties and special events, with the staff, tents, tables and chairs to match.</p>
     <div class="cta rv" style="--d:6"><button class="btn" type="button" data-go="packages">Plan my party</button><a class="btn o" href="tel:+15164330920">Call Teddy's</a></div>
